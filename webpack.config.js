@@ -14,7 +14,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
   plugins: [
-    new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       favicon: "./src/images/favicon.ico",
       template: `${__dirname}/src/index.html`,
