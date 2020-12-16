@@ -1,4 +1,7 @@
-import "../sass/main.scss";
-import sum from "./test";
+import '../sass/main.scss';
 
-console.log(sum(2, 2));
+let a = 0;
+
+if (a === 0) {
+  a = 1;
+} else a = 2;
