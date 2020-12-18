@@ -14,7 +14,6 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "css-loader": "^5.0.1",
     "eslint": "^7.15.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.0.0",
@@ -22,10 +21,7 @@
     "eslint-plugin-prettier": "^3.2.0",
     "husky": "^4.3.6",
     "lint-staged": "^10.5.3",
-    "prettier": "^2.2.1",
-    "sass": "^1.30.0",
-    "sass-loader": "^10.1.0",
-    "style-loader": "^2.0.0"
+    "prettier": "^2.2.1"
   },
   "husky": {
     "hooks": {
