@@ -28,6 +28,10 @@
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
     "webpack": "^5.11.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
@@ -41,6 +45,9 @@
   "lint-staged": {
     "*.js": [
       "eslint --fix"
+    ],
+    "*.(s*)css": [
+      "stylelint --fix"
     ]
   }
 }
