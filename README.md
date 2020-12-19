@@ -1,1 +1,1 @@
-# eslint-prettier-template
+# config-template
