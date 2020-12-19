@@ -1,1 +1,1 @@
-# ept
+# config-template
