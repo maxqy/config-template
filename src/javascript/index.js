@@ -1,7 +1,4 @@
 import '../sass/main.scss';
+import hello from './vendor';
 
-let a = 0;
-
-if (a === 0) {
-  a = 1;
-} else a = 4;
+hello();
