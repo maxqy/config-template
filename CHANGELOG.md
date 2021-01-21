@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/maxqy/config-template/compare/v1.0.0...v1.0.1) (2021-01-21)
+
+
+### Bug Fixes
+
+* remove function ([ff7bde0](https://github.com/maxqy/config-template/commit/ff7bde0f43535b5d7e3dd46d473ea2734ef64ce8))
+
 ## 1.0.0 (2021-01-21)
 
 
