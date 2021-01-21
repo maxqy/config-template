@@ -1,20 +1,25 @@
 {
-  "name": "javascript-app",
+  "name": "config-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "private": true,
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "clean-webpack-plugin": "^3.0.0",
+    "conventional-changelog-conventionalcommits": "^4.5.0",
     "css-loader": "^5.0.1",
     "eslint": "^7.16.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -27,6 +32,7 @@
     "prettier": "^2.2.1",
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0",
+    "semantic-release": "^17.3.6",
     "style-loader": "^2.0.0",
     "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
@@ -48,6 +54,18 @@
     ],
     "*.(s*)css": [
       "stylelint --fix"
+    ]
+  },
+  "release": {
+    "preset": "conventionalcommits",
+    "presetConfig": "conventional-changelog-conventionalcommits",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
     ]
   }
 }
