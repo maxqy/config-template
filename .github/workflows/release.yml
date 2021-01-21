@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - webpack
+      - master
 jobs:
   release:
     name: Release
