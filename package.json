@@ -48,10 +48,13 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "**/*.js": [
       "eslint --fix"
     ],
-    "*.(s*)css": [
+    "**/!(*.js|*.css|*.scss)": [
+      "prettier --write"
+    ],
+    "**/*.{css,scss}": [
       "stylelint --fix"
     ]
   },
