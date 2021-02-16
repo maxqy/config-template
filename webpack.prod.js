@@ -19,14 +19,7 @@ module.exports = merge(common, {
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
-          {
-            loader: 'postcss-loader',
-            options: {
-              postcssOptions: {
-                plugins: ['postcss-preset-env'],
-              },
-            },
-          },
+          'postcss-loader',
           'sass-loader',
         ],
       },
