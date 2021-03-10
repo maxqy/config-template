@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/maxqy/config-template/compare/v1.1.0...v1.2.0) (2021-03-10)
+
+
+### Features
+
+* enable HMR ([e16a506](https://github.com/maxqy/config-template/commit/e16a506e950e07b3be21c4c49e3019b446e5053c))
+
 ## [1.1.0](https://github.com/maxqy/config-template/compare/v1.0.1...v1.1.0) (2021-02-16)
 
 
